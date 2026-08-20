@@ -1,0 +1,261 @@
+/*Comentário*/
+
+/*Formatação da Minha Página*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 40px 40px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(15, 9, 9);
+    color: rgb(241, 236, 236);
+}
+
+.cabecalho{
+    background-color: #a60303;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 8px solid #efeaea;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ebe2e2;
+}
+
+
+.menu a {
+    color: #eff1f3;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.conteiner {
+    max-width: 60pxpx;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.titulo-secao {
+    font-size: 40px;
+    margin-bottom: 2px;
+    color: rgb(253, 249, 249);
+    border: 6px solid #efeaea;
+    background-color: #890909;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #ebe2e2;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.grade-filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 25px;
+}
+
+
+.poster {
+    width: 450px;
+    height: 450px;
+    border: 6px solid #efeaea;
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px #d7d1d1;
+}
+
+
+.card-filmem {
+    background-color: rgb(77, 63, 63);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #0b0808;
+    display: flex;
+    flex-direction: column;
+     border: 6px solid #c25801;
+}
+
+.card-filmem:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px #c25801;
+}
+
+.card-filmeh {
+    background-color: rgb(77, 63, 63);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #0b0808;
+    display: flex;
+    flex-direction: column;
+     border: 6px solid #fc1403;
+}
+
+.card-filmeh:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px #fc1403;
+}
+
+.card-filmea {
+    background-color: rgb(77, 63, 63);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #0b0808;
+    display: flex;
+    flex-direction: column;
+     border: 6px solid #f3a75b;
+}
+
+.card-filmea:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px #f3a75b;
+}
+
+.card-filmef {
+    background-color: rgb(77, 63, 63);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #0b0808;
+    display: flex;
+    flex-direction: column;
+     border: 6px solid #1e7cffe4;
+}
+
+.card-filmef:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px #1e7cffe4;
+}
+
+.generor {
+    font-size: 18px;
+    color: #c25801;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;text-align: center;
+}
+
+.generoh {
+    font-size: 18px;
+    color: #fc1403;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.generoa {
+    font-size: 18px;
+    color: #f3a75b;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.generof {
+    font-size: 18px;
+    color: #1e7cffe4;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudo-filme {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.nome-filmem {
+    font-size: 30px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    color: #c25801;
+}
+
+.nome-filmeh {
+    font-size: 30px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    color: #ff0303;
+}
+
+.nome-filmea {
+    font-size: 30px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    color: #f3a75b;
+}
+
+.nome-filmef {
+    font-size: 30px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    color: #0c65ff;
+}
+
+.sinopse {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    flex-grow: 1;
+
+}
+
+.sessoesm {
+    font-size: 25px;
+    margin-bottom: 20;
+    color: #c25801;
+}
+
+.sessoesh {
+    font-size: 25px;
+    margin-bottom: 20;
+    color: #ff0303;
+}
+
+.sessoesa {
+    font-size: 25px;
+    margin-bottom: 20;
+    color: #f3a75b;
+}
+
+.sessoesf {
+    font-size: 25px;
+    margin-bottom: 20;
+    color: #0c65ff;
+}
+
+.horario {
+    padding: 1px 4px;
+    margin-left: 4px;
+}
+
+.botao-comprar {
+    display: block;
+    text-align: center;
+    background-color: #d40707;
+    padding: 12px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #d7d1d1;
+    font-size: 20px;
+}
+
+.botao-comprar:hover{
+    background-color: #590808;
+}
